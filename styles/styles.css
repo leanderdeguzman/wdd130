@@ -11,7 +11,7 @@ h1 {
     color: steelblue;
 }
 img {
-    width: 150x;
+    width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -21,7 +21,7 @@ p {
     padding: 10px;
 }
 main {
-    max-width: 840;
+    max-width: 840px;
 }
 aside {
     width: 20rem;
