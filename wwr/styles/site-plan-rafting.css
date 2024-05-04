@@ -6,17 +6,17 @@ body {
     padding: 20px;
 }
 :root {
-    --primary-color: black;
+    --primary-color: #000000;
     --secondary-color: #9A8C98;
     --accent1-color: #C9ADA7;
-    --accent2-color: yellow;
+    --accent2-color: #FFFF00;
 
     --heading-font: 'Oswald';
     --paragraph-font: 'Oxygen';
 
     --nav-background-color: #4A4E69;
-    --nav-link-color: white;
-    --nav-hover-link-color: yellow;
+    --nav-link-color: #FFFFFF;
+    --nav-hover-link-color: #FFFF00;
     --nav-hover-background-color: #9A8C98;
 }
 
