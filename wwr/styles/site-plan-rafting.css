@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Oxygen&display=swap');
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -11,8 +11,8 @@ body {
     --accent1-color: #C9ADA7;
     --accent2-color: yellow;
 
-    --heading-font: 'Oslwald';
-    --paragraph-font: 'Oswald';
+    --heading-font: 'Oswald';
+    --paragraph-font: 'Oxygen';
 
     --nav-background-color: #4A4E69;
     --nav-link-color: white;
