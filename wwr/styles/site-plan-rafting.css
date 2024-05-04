@@ -5,23 +5,23 @@ body {
     padding: 20px;
 }
 :root {
-    --primary-color: #XXXXXX;
-    --secondary-color: #XXXXXX;
-    --accent1-color: #XXXXXX;
-    --accent2-color: #XXXXXX;
+    --primary-color: black;
+    --secondary-color: #9A8C98;
+    --accent1-color: #C9ADA7;
+    --accent2-color: yellow;
 
     --heading-font: '_________' serif;
     --paragraph-font: '_________' serif;
 
-    --nav-background-color: #XXXXXX;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
+    --nav-background-color: #4A4E69;
+    --nav-link-color: white;
+    --nav-hover-link-color: yellow;
+    --nav-hover-background-color: #9A8C98;
 
 }
 
 body {
-    font-family: var(--paragraph-font);
+    font-family: var(Arial);
     max-width: 960px;
     padding: 4em;
 }
