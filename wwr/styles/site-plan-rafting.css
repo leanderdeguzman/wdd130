@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Arial');
+@import url('https://fonts.googleapis.com/css2?family=Oswald');
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -11,8 +11,8 @@ body {
     --accent1-color: #C9ADA7;
     --accent2-color: yellow;
 
-    --heading-font: 'Arial';
-    --paragraph-font: 'Arial';
+    --heading-font: 'Oslwald';
+    --paragraph-font: 'Oswald';
 
     --nav-background-color: #4A4E69;
     --nav-link-color: white;
