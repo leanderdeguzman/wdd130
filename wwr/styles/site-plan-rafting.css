@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Arial');
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Arial');
 :root {
     --primary-color: black;
     --secondary-color: #9A8C98;
