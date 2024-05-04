@@ -21,7 +21,7 @@ body {
 }
 
 body {
-    font-family: var(Arial);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 4em;
 }
