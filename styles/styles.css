@@ -12,7 +12,7 @@ nav {
     align-items: center;
 }
 nav a {
-    color: white;
+    color: rgb(11, 67, 77);
     display: block;
     padding: 0.5rem;
     text-decoration: none;
@@ -20,7 +20,9 @@ nav a {
     font-weight: 700;
 }
 h1 {
-    color: steelblue;
+    color: steelblue;padding-left: 18px;
+    margin-bottom: 4px;
+    border-bottom: 2px solid steelblue;
 }
 img {
     width: 150px;
