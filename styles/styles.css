@@ -20,8 +20,9 @@ nav a {
     font-weight: 700;
 }
 h1 {
-    color: steelblue;padding-left: 18px;
-    margin-bottom: 4px;
+    color: steelblue;
+    padding-left: 20px;
+    margin-bottom: 15px;
     border-bottom: 2px solid steelblue;
 }
 img {
