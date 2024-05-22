@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+}
+
+.quizweb {
+    background: #c0c0c0;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.question p {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.question input, select, textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.question {
+    padding: 20px 0;
+}
+
+.question h2 {
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 300;
+}
+
+.question span {
+    display: block;
+    background: #000000;
+    color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    height: 40px;
+}
+
+#submit {
+    background: #001e4d;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    width: 500px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+}
