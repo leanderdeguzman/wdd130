@@ -20,8 +20,8 @@ body {
 
 .question p {
     font-size: 18px;
-    color: rgb(0, 0, 0);
     font-weight: 300;
+    color: rgb(0, 0, 0);
     padding-bottom: 30px;
 }
 
@@ -37,8 +37,9 @@ body {
 
 .question h2 {
     font-size: 18px;
-    color: #001e4d;
     font-weight: 300;
+    color: #001e4d;
+    
 }
 
 .question span {
@@ -65,4 +66,8 @@ body {
     border-radius: 4px;
     cursor: pointer;
     display: block;
+}
+footer {
+    margin-top: 1em;
+    text-align: center;
 }
