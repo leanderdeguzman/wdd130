@@ -9,6 +9,17 @@ body {
     background: #ffffff;
 }
 
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
 .quizweb {
     background: #c0c0c0;
     width: 90%;
