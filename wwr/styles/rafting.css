@@ -247,3 +247,81 @@ footer p {
   width: 30px;
   height: auto;
 }
+
+.contactContent {
+  display: grid;
+  grid-template-columns: 1fr 50%;
+  gap: 10px;
+  text-align: left !important;
+  line-height: 2rem;
+  margin-top: 12px;
+}
+
+.contactContent h2 {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+
+.contact-Container {
+  
+    max-width: 840px;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 8px;
+}
+
+
+.contactContent label,
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  padding: 6px;
+  width: 90%;
+  font-weight: bold;
+}
+
+.radio-group {
+  display: block;
+  gap: 5px;
+  align-items: left;
+}
+
+
+.radio-group input[type="radio"] {
+  margin: 0;
+  padding: 2px;
+  appearance: none;
+  border: 1px solid #3498db;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.radio-group label {
+  font-size: 16px;
+  color: #333;
+}
+
+.radio-group input[type="radio"]:checked {
+  background-color: #3498db;
+}
+
+
+.contactContentbutton, .newsletterbutton {
+  background-color: #000080;
+  color: #fff;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 90%;
+  cursor: pointer;
+}
+
+.newsletterbutton {
+  background-color: var(--accent2-color) !important;
+}
