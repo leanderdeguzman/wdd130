@@ -312,6 +312,3 @@ select {
   cursor: pointer;
 }
 
-.newsletterbutton {
-  background-color: var(--accent2-color) !important;
-}
