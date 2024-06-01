@@ -17,9 +17,9 @@ body {
     --paragraph-font: 'Oxygen';
 
     --nav-background-color: #8ea4bc;
-    --nav-link-color: #565577;
+    --nav-link-color: #ffffff;
     --nav-hover-link-color: #18d0ca;
-    --nav-hover-background-color: #9A8C98;
+    --nav-hover-background-color: #657df7;
 }
 
 
@@ -45,8 +45,9 @@ h4,
 h5, 
 h6 {
   font-family: var(--heading-font);
-  color: var(--primary-color);
+  color: var(--nav-link-color);
   text-align: center;
+  font-size: 24px;
 }
 
 nav {
@@ -121,14 +122,14 @@ p {
   
   .history {
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     border: 1px solid black;
-    background-color: var(--nav-hover-background-color);
+    background-color: var(--nav-hover-);
     margin-bottom: 10px;
   }
   
   .history h2 {
-    text-align: left;
+    text-align: center;
     width: 100%;
     margin-bottom: 20px;
   }
@@ -154,20 +155,35 @@ p {
     margin: auto;
     padding: 8px;
   }
+  .adventures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  }
+  
+  .adventures h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 
 
 figure {
-    border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
-    max-width: 120px;
-    margin: auto;
+  flex: 1;
+  text-align: center;
+  margin: 0;
 }
 
 figure img {
-    max-width: 120px;
-    max-height: 150px;
+  max-width: 100%;
+  height: 120px;
+  display: block;
+  margin: 0 auto;
 }
 
 figcaption {
@@ -227,7 +243,7 @@ footer p {
   display: grid;
   grid-template-columns: 1fr 50%;
   gap: 10px;
-  text-align: left !important;
+  text-align: left;
   line-height: 2rem;
   margin-top: 12px;
 }
@@ -297,4 +313,130 @@ select {
   cursor: pointer;
   
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+
+
+.trips img {
+  max-width: 100%;
+  border-radius: 5px;
+  max-height: 300px;
+}
+
+.trips ul {
+  color: rgb(0, 0, 0);
+  list-style: none;
+  font-size: large;
+  text-align: left;
+  padding: 16px;
+  line-height: 1.5rem;
+}
+
+.container p {
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  padding: 8px;
+}
+
+
+.container button {
+  background-color: #f0fc00;
+  color: #0024a6;
+  padding: 14px 22px;
+  border: none;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 19%;
+  cursor: pointer;
+  }
+
+.container a {
+  text-decoration: none;
+}
+
+.indexContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.indexContent p {
+  text-align: left;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  padding: 8px;
+}
+
+.indexContent img {
+  width: 100%;
+  max-height: 500px;
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+.indexContent button {
+  background-color: var(--accent2-color);
+  color: var(--secondary-color);
+  font-size: var(--paragraph-font);
+  border: 0;
+  display: block;
+  margin: 0 auto;
+  border-radius: 26px;
+  padding: 8px 16px;
+  float: left;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px 0 rgba(0,0,0,0.5);
+}
+
+.indexContent input {
+  padding: 8px;
+  margin: 2px;
+}
+
+.moto {
+position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 8%;
+  background-color: var(--nav-background-color);
+  padding: 12px;
+  opacity: 0.9;
+}
+
+.moto p, .moto2 p {
+  color: #fff;
+  font-family: var(--paragraph-font);
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  padding: 8px;
+}
+
+.moto img {
+  float: right;
+  height: 180px;
+}
+
+.moto2 {
+  position: absolute;
+  width: 76%;
+  top: 70%;
+  right: 8%;
+  background-color: var(--accent2-color);
+  border-radius: 24px;
+  padding: 12px;
+  opacity: 0.9;
+}
+
+
 
