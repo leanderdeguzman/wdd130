@@ -363,20 +363,20 @@ select {
   text-decoration: none;
 }
 
-.indexContent {
+.IndexIdea {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
 
-.indexContent p {
+.IndexIdea p {
   text-align: left;
   font-size: 1.3rem;
   line-height: 1.8rem;
   padding: 5px;
 }
 
-.indexContent img {
+.IndexIdea img {
   width: 90%;
   max-height: 200px;
   display: block;
@@ -385,7 +385,7 @@ select {
   border-radius: 26px;
 }
 
-.indexContent button {
+.IndexIdea button {
   background-color: var(--accent2-color);
   color: var(--secondary-color);
   font-size: var(--paragraph-font);
@@ -397,7 +397,7 @@ select {
   cursor: pointer;
 }
 
-.indexContent input {
+.IndexIdea input {
   padding: 8px;
   margin: 2px;
 }
